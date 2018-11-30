@@ -1,0 +1,6 @@
+correo_smtp.php :
+Este archivo contiene lineas de codigo para que los correos electronicos puedan enviarse por el protocolo smtp
+correo_usando_app_por_defecto.php :
+Este metodo es el que esta implementado en el sistema utilizando la funcion mail() propio del lenguaje
+envio_automatico.php :
+Este archivo ejecuta los scripts de envio de correo, solo se encarga de enviar los correos electronicos sin necesidad de abrir el sistema 
