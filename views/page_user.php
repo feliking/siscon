@@ -154,11 +154,19 @@ if(!isset($_SESSION["tipo"])){
 
 </div>
                 </li>
+                <li>
+                    <a href="reporte.php">
+                        <button class="btn btn-success" style="height: 70px; width: 200px">
+                            <span style="font-size: 17px"><b>Ver reporte de vencidos</b></span> 
+                        </button>
+                    </a>
+                </li>
             </ul>
             
         </div>
-
+        
     </div>
+   
 
 
     <!--/.Mask-->
