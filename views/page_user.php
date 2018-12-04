@@ -115,14 +115,20 @@ if(!isset($_SESSION["tipo"])){
         <div class="full-img flex-center">
             <ul>
                 <li>
+                <!-- <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br> -->
                     <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s"><?php if(strcmp("M",$_SESSION["sexo"])==0){ echo "Bienvenido: ";}else{ echo "Bienvenida: ";} echo $_SESSION["nombres"]?></h1>
                 </li>
                 <li>
                     <p class="wow fadeInUp">Elija que tareas desea hacer</p>
                     <br>
                     <br>
-                    <div style="height: 500px;">
-                    <section class="">
+                    <div style="height: 350px;">
+
 
     <dl class=" fadeInDown list nigiri">
         <dt>Contratos</dt>
@@ -148,9 +154,9 @@ if(!isset($_SESSION["tipo"])){
         <dd><a href="../views/publicidad.php">Publicidad</a></dd>
         <dd><a href="../views/baja.php">Baja licencias</a></dd>
     </dl>
+    
 
 
-</section>
 
 </div>
                 </li>
